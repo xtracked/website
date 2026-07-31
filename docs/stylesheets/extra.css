@@ -1,0 +1,46 @@
+.timeline {
+    border-left: 2px solid var(--md-primary-fg-color);
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.75rem;
+}
+
+.timeline-item::before {
+    background: var(--md-primary-fg-color);
+    border-radius: 50%;
+    content: "";
+    height: 0.75rem;
+    left: -1.94rem;
+    position: absolute;
+    top: 0.35rem;
+    width: 0.75rem;
+}
+
+.screenshot {
+    margin-block: 2rem;
+}
+
+.screenshot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+    box-shadow:
+            0 0.25rem 0.75rem rgba(0, 0, 0, 0.06),
+            0 0.75rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+[data-md-color-scheme="slate"] .screenshot img {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+            0 0.25rem 0.75rem rgba(0, 0, 0, 0.2),
+            0 0.75rem 2rem rgba(0, 0, 0, 0.28);
+}
+
+.screenshot figcaption {
+    margin-top: 0.75rem;
+}

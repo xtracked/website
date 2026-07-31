@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+name: Publish website
+
+on:
+  # Allow running the workflow manually from the GitHub UI
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      # Only run on changes to docs
+      - ".github/workflows/publish-website.yml"
+      - "docs/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-website
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        # Fetch all history for all tags and branches
+        # Required by mkdocs-git-revision-date-localized-plugin
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git credentials
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: Create cache id
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Cache dependencies
+        uses: actions/cache@v6
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r ./requirements.txt
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
