@@ -41,23 +41,26 @@ Gedurende het project werd bijgedragen aan onder andere:
 
 !!! abstract ""
 
-    Productontwikkeling
+    Ontwerp
 
-    Softwarearchitectuur
+    - Productontwikkeling
+    - Interactieontwerp en gebruikerservaring
+    - Softwarearchitectuur
 
-    Embedded softwareontwikkeling
+    Realisatie
 
-    Mobiele applicaties (Android en iOS)
+    - Embedded softwareontwikkeling
+    - Mobiele applicaties (Android en iOS)
+    - Hardware-integratie
 
-    Hardware-integratie
+    Productie
 
-    Interactieontwerp en gebruikerservaring
+    - Productie- en testtooling
+    - Voorbereiding op productie en certificering
 
-    Productie- en testtooling
+    Ondersteuning
 
-    Technische documentatie
-
-    Voorbereiding op productie en certificering
+    - Technische documentatie
 
 Het project vereiste nauwe samenwerking met internationale partners op het gebied van hardwareontwikkeling, productie en
 engineering. Daarmee bood het een unieke combinatie van productontwikkeling, software engineering en technisch
