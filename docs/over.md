@@ -46,3 +46,10 @@ Die ontwerpfilosofie loopt als een rode draad door alle projecten van Xtracked.
 
 Xtracked blijft zich richten op projecten waarin techniek, structuur en eenvoud samenkomen. Niet vanuit de ambitie om
 zoveel mogelijk te bouwen, maar om oplossingen te creëren die begrijpelijk blijven en langdurig waarde toevoegen.
+
+!!! info "Waarom de naam Xtracked?"
+
+    Spreek **Xtracked** uit als **"Extract"**.
+
+    Die uitspraak weerspiegelt onze ontwerpfilosofie: het **extracten van de essentie** door overbodige complexiteit weg
+    te nemen, zodat zichtbaar wordt wat werkelijk waarde toevoegt.
