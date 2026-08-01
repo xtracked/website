@@ -59,23 +59,26 @@ Tijdens het project werd gewerkt aan onder andere:
 
 !!! abstract ""
 
-    Ontwerp van de FunQL-specificatie
+    Ontwerp
 
-    Softwarearchitectuur
+    - Ontwerp van de FunQL-specificatie
+    - Softwarearchitectuur
 
-    Parser en query-engine
+    Realisatie
 
-    .NET-implementatie
+    - Parser en query-engine
+    - .NET-implementatie
 
-    OpenAPI-specificaties
+    Ecosysteem
 
-    Interactieve Playground
+    - OpenAPI-specificatie
+    - Interactieve Playground
+    - Developer Portal en documentatie
 
-    Developer Portal en documentatie
+    Open source
 
-    Voorbeeldprojecten en referentie-implementaties
-
-    Publicatie als open-source project op GitHub
+    - Voorbeeldprojecten en referentie-implementaties
+    - Publicatie als open-source project op GitHub
 
 Door specificatie, software, documentatie en voorbeeldprojecten gelijktijdig te ontwikkelen ontstond een platform
 waarmee ontwikkelaars niet alleen de querytaal konden gebruiken, maar deze ook direct konden begrijpen, testen en
