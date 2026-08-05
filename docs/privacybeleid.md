@@ -1,3 +1,9 @@
+---
+description: >
+  Lees hoe Xtracked omgaat met persoonsgegevens, privacy, cookies en de beveiliging van gegevens bij het gebruik van
+  deze website.
+---
+
 # Privacybeleid
 
 Xtracked B.V. respecteert uw privacy en verwerkt persoonsgegevens uitsluitend voor het uitvoeren van haar

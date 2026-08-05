@@ -1,3 +1,9 @@
+---
+description: >
+  Ontdek de werkwijze van Xtracked: eerst begrijpen, daarna structureren en vervolgens realiseren. Goede oplossingen
+  beginnen met inzicht.
+---
+
 # Onze werkwijze
 
 Deze werkwijze vormt de basis van ieder [project](./projecten/index.md) dat Xtracked uitvoert.

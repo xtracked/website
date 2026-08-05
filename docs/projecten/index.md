@@ -1,3 +1,9 @@
+---
+description: >
+  Ontdek hoe Xtracked complexe technische vraagstukken vertaalt naar begrijpelijke en duurzame oplossingen in
+  uiteenlopende projecten.
+---
+
 # Projecten
 
 Iedere opdracht vertelt zijn eigen verhaal.

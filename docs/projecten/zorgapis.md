@@ -1,3 +1,13 @@
+---
+description: >
+  Ontdek hoe Xtracked bijdroeg aan ZorgAPIs: van API-strategie tot een platform voor gestandaardiseerde
+  gegevensuitwisseling in de zorg.
+icon: material/connection
+tags:
+  - Projecten
+  - ZorgAPIs
+---
+
 # ZorgAPIs
 
 Van strategie tot softwareontwikkeling droeg Xtracked bij aan de realisatie van het ZorgAPIs Platform: een landelijk

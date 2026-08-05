@@ -1,3 +1,10 @@
+---
+description: >
+  Maak kennis met Xtracked en ontdek de ontwerpfilosofie achter onze werkwijze: eerst begrijpen, daarna structureren en
+  vervolgens realiseren.
+---
+
+
 # Over Xtracked
 
 Xtracked is een Nederlandse onderneming die sinds 2014 werkt aan digitale oplossingen waarin techniek, structuur en

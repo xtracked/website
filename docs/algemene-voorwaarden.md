@@ -1,3 +1,9 @@
+---
+description: >
+  Lees welke algemene voorwaarden van toepassing zijn op de dienstverlening van Xtracked en raadpleeg de NLdigital
+  Voorwaarden 2020.
+---
+
 # Algemene voorwaarden
 
 Op alle aanbiedingen en overeenkomsten van Xtracked B.V. zijn de NLdigital Voorwaarden 2020 van toepassing.

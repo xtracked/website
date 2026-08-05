@@ -1,3 +1,8 @@
+---
+description: >
+  Heeft u een idee, een vraag of een technisch project? Neem contact op met Xtracked en ontdek hoe wij kunnen helpen.
+---
+
 # Contact
 
 Heeft u een idee, een vraag of een technisch project waarbij u ondersteuning zoekt?

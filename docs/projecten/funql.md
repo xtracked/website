@@ -1,3 +1,13 @@
+---
+description: >
+  Van eerste idee tot open-source ecosysteem: ontdek hoe Xtracked FunQL ontwikkelde voor consistente querymogelijkheden
+  in moderne REST API's.
+icon: material/function-variant
+tags:
+  - Projecten
+  - FunQL
+---
+
 # FunQL
 
 Van een eerste idee tot een compleet open-source ecosysteem ontwikkelde Xtracked FunQL: een uniforme aanpak voor het

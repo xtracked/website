@@ -1,3 +1,9 @@
+---
+description: >
+  Xtracked helpt opdrachtgevers complexe technische vraagstukken te begrijpen, te structureren en te realiseren. Van
+  analyse tot implementatie.
+---
+
 # Xtracked
 
 ## Complexiteit terugbrengen tot eenvoud

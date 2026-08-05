@@ -1,3 +1,13 @@
+---
+description: >
+  Ontdek hoe Xtracked bijdroeg aan de ontwikkeling van SPIN remote: van concept en softwareontwikkeling tot een
+  internationaal bekroond consumentenproduct.
+icon: material/lightbulb-on
+tags:
+  - Projecten
+  - SPIN remote
+---
+
 # SPIN remote
 
 Van concept tot internationale productintroductie droeg Xtracked bij aan de ontwikkeling van SPIN remote. Het resultaat
