@@ -2,8 +2,7 @@
 
 This repository contains the source code of the Xtracked website.
 
-The website is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and is published
-automatically through GitHub Pages.
+The website is built with [Zensical](https://zensical.org/) and is published automatically through GitHub Pages.
 
 ## Requirements
 
@@ -13,13 +12,13 @@ automatically through GitHub Pages.
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip install zensical
 ```
 
 ## Run locally
 
 ```bash
-mkdocs serve
+zensical serve
 ```
 
 The website will be available at:
@@ -31,7 +30,7 @@ http://localhost:8000
 ## Build
 
 ```bash
-mkdocs build
+zensical build
 ```
 
 The generated site is written to the `site/` directory.
