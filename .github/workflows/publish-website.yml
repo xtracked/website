@@ -5,62 +5,55 @@ name: Publish website
 on:
   # Allow running the workflow manually from the GitHub UI
   workflow_dispatch:
+
   push:
     branches:
       - main
     paths:
-      # Only run on changes to docs
       - ".github/workflows/publish-website.yml"
       - "docs/**"
-      - "mkdocs.yml"
-      - "requirements.txt"
+      - "zensical.toml"
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: publish-website
-  cancel-in-progress: true
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
-  publish:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
 
     steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
       - name: Checkout repository
         uses: actions/checkout@v7
-        # Fetch all history for all tags and branches
-        # Required by mkdocs-git-revision-date-localized-plugin
-        with:
-          fetch-depth: 0
-
-      - name: Configure Git credentials
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.x'
-          cache: 'pip'
-          cache-dependency-path: 'requirements.txt'
+          python-version: "3.x"
 
-      - name: Create cache id
-        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - name: Install Zensical
+        run: pip install zensical
 
-      - name: Cache dependencies
-        uses: actions/cache@v6
+      - name: Build website
+        run: zensical build --clean
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: ~/.cache
-          restore-keys: |
-            mkdocs-material-
-
-      - name: Install dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -r ./requirements.txt
+          path: site
 
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+        uses: actions/deploy-pages@v5
+        id: deployment
