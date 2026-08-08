@@ -111,9 +111,9 @@ willen toevoegen aan hun REST API's.
 
 De documentatie en interactieve Playground zijn openbaar beschikbaar en laten zien hoe FunQL in de praktijk werkt.
 
-[Bekijk de FunQL-documentatie :material-open-in-new:](https://funql.io/){: target="_blank" }
+[Bekijk de FunQL-documentatie](https://funql.io/){: target="_blank" } :material-open-in-new:
 
-[Probeer de FunQL Playground :material-open-in-new:](https://play.funql.io/){: target="_blank" }
+[Probeer de FunQL Playground](https://play.funql.io/){: target="_blank" } :material-open-in-new:
 
 <figure class="screenshot" markdown="span">
 ![FunQL GitHub organisatie](../assets/screenshots/funql-github-light.webp#only-light){ loading=lazy }
