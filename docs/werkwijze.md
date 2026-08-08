@@ -110,33 +110,33 @@ Deze werkwijze is gebaseerd op een aantal uitgangspunten die richting geven aan 
 
 <div class="grid cards" markdown>
 
--   :material-head-lightbulb-outline:{ .lg .middle } &nbsp; **Begrijpen vóór bouwen**
+-   :material-head-lightbulb-outline:{ .lg .middle } **Begrijpen vóór bouwen**
 
     ---
 
     Goede oplossingen beginnen niet met programmeren, maar met begrijpen.
 
--   :material-circle-outline:{ .lg .middle } &nbsp; **Eenvoud boven complexiteit**
+-   :material-circle-outline:{ .lg .middle } **Eenvoud boven complexiteit**
 
     ---
 
     De beste oplossing is meestal niet degene met de meeste mogelijkheden, maar degene die het eenvoudigst blijft.
 
--   :material-file-tree:{ .lg .middle } &nbsp; **Structuur brengt inzicht**
+-   :material-file-tree:{ .lg .middle } **Structuur brengt inzicht**
 
     ---
 
     Door structuur aan te brengen ontstaat overzicht. Overzicht creëert inzicht en vormt de basis voor weloverwogen
     keuzes. Heldere documentatie, consistente architectuur en transparante besluitvorming ondersteunen dat proces.
 
--   :material-source-branch:{ .lg .middle } &nbsp; **Open waar mogelijk**
+-   :material-source-branch:{ .lg .middle } **Open waar mogelijk**
 
     ---
 
     Open standaarden, open source en transparante documentatie bevorderen samenwerking en maken oplossingen eenvoudiger
     te delen, onderhouden en doorontwikkelen.
 
--   :material-leaf:{ .lg .middle } &nbsp; **Duurzame oplossingen**
+-   :material-leaf:{ .lg .middle } **Duurzame oplossingen**
 
     ---
 

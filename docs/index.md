@@ -25,7 +25,7 @@ Die werkt gewoon.
 
 <div class="grid cards" markdown>
 
--   :material-map-marker-path:{ .lg .middle } &nbsp; **Werkwijze**
+-   :material-map-marker-path:{ .lg .middle } **Werkwijze**
 
     ---
 
@@ -33,9 +33,9 @@ Die werkt gewoon.
 
     Complexe vraagstukken vragen om analyse, structuur en samenwerking voordat technologie een rol speelt.
 
-    [:material-arrow-right: Lees meer](./werkwijze.md)
+    :material-arrow-right: [Lees meer](./werkwijze.md)
 
--   :material-folder-multiple:{ .lg .middle } &nbsp; **Projecten**
+-   :material-folder-multiple:{ .lg .middle } **Projecten**
 
     ---
 
@@ -43,14 +43,14 @@ Die werkt gewoon.
 
     Bekijk een selectie van projecten waarin dezelfde ontwerpfilosofie steeds terugkomt.
 
-    [:material-arrow-right: Bekijk projecten](./projecten/index.md)
+    :material-arrow-right: [Bekijk projecten](./projecten/index.md)
 
--   :material-domain:{ .lg .middle } &nbsp; **Over Xtracked**
+-   :material-domain:{ .lg .middle } **Over Xtracked**
 
     ---
 
     Sinds 2014 werkt Xtracked aan digitale oplossingen waarin eenvoud, structuur en techniek samenkomen.
 
-    [:material-arrow-right: Over Xtracked](./over.md)
+    :material-arrow-right: [Over Xtracked](./over.md)
 
 </div>
