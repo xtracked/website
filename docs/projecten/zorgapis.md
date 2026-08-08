@@ -172,4 +172,4 @@ Ieder project begint met het begrijpen van het vraagstuk.
 
 Bent u benieuwd wat Xtracked voor uw project kan betekenen?
 
-Neem gerust [contact](../contact.md) op.
+[Neem contact op :material-arrow-right:](../contact.md){ .md-button .md-button--primary }
